@@ -56,13 +56,13 @@ const Onboarding = () => {
               resizeMode="contain"
             />
 
-            <View className="flex flex-row items-center justify-center w-11/12 mt-10">
+            <View className="flex flex-row items-center justify-center w-full mt-10">
               <Text className="text-black text-3xl font-bold mx-10 text-center">
                 {data.title}
               </Text>
             </View>
 
-            <Text className="text-lg font-JakartaSemiBold mx-10 mt-3 text-center text-[#858585]">
+            <Text className="w-full text-lg font-JakartaSemiBold mx-10 mt-3 text-center text-[#858585]">
               {data.description}
             </Text>
           </View>
